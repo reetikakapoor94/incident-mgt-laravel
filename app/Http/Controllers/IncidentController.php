@@ -91,6 +91,7 @@ public function update(UpdateIncidentRequest $request, $id)
         'message' => 'Incident updated successfully.',
         'data' => $incident
     ]);
+    
 }
 
 
